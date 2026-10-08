@@ -14,5 +14,4 @@ README.md — Tadqiqot haqida umumiy ma'lumotlar.
 (Kelgusida ilmiy maqolalar, dasturiy ishlanmalar va metodik ko‘rsatmalarning elektron versiyalari joylashtiriladi)
 🛠 Ishlatilgan texnologiyalar
 HTML5 / CSS3 / JavaScript
-Markdown
-Muallif: PhD izlanuvchisi
+Muallif: Mo'ydinova Shoxsanam izlanuvchi
