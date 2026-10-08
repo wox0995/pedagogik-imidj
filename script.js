@@ -1,0 +1,25 @@
+hisoblandi.
+        </small>
+
+    `;
+
+
+    result.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    });
+});
+// MOBIL MENYU
+const menuButton = document.querySelector(".menu-btn");
+const navigation = document.getElementById("nav");
+menuButton.addEventListener("click", function() {
+if (navigation.style.display === "flex") {
+
+    navigation.style.display = "none";
+
+} else {
+
+    navigation.style.display = "flex";
+
+}
+});
