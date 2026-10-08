@@ -1,37 +1,25 @@
-<header>
-    <h1>Oliy ta'lim talabalarida kasbiy-pedagogik imidjni rivojlantirish</h1>
-    <p>13.00.02 – Ta'lim va tarbiya nazariyasi va metodikasi ixtisosligi bo'yicha PhD ilmiy tadqiqot portali</p>
-</header>
+hisoblandi.
+        </small>
 
-<nav>
-    <a href="#about">Tadqiqot haqida</a>
-    <a href="#methodology">Metodologiya</a>
-    <a href="#resources">Resurslar</a>
-    <a href="#contact">Aloqa</a>
-</nav>
+    `;
 
-<div class="container">
-    <section id="about" class="card">
-        <h2>Tadqiqotning asosiy maqsadi</h2>
-        <p>Mazkur ilmiy loyiha bo'lajak o'qituvchilar va oliy ta'lim talabalarida kasbiy-pedagogik imidjni (nutq madaniyati, tashqi ko'rinish, emotsional intellekt, liderlik qobiliyatlari va kasbiy kompetensiya) shakllantirish va rivojlantirishning pedagogik mexanizmlari hamda metodikasini takomillashtirishga qaratilgan.</p>
-    </section>
 
-    <section id="methodology" class="card">
-        <h2>Metodik ta'minot va yondashuvlar</h2>
-        <ul>
-            <li><strong>Tizimli yondashuv:</strong> Talabaning shaxsiy va kasbiy fazilatlarini yaxlit holda rivojlantirish.</li>
-            <li><strong>Aksseologik yondashuv:</strong> Pedagogik qadriyatlarni singdirish.</li>
-            <li><strong>Refleksiv yondashuv:</strong> O'z-o'zini baholash va kasbiy rivojlanishni tahlil qilish ko'nikmalari.</li>
-        </ul>
-    </section>
+    result.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    });
+});
+// MOBIL MENYU
+const menuButton = document.querySelector(".menu-btn");
+const navigation = document.getElementById("nav");
+menuButton.addEventListener("click", function() {
+if (navigation.style.display === "flex") {
 
-    <section id="resources" class="card">
-        <h2>Amaliy natijalar va tavsiyalar</h2>
-        <p>Tadqiqot doirasida ishlab chiqilgan elektron qo'llanmalar, test sinovlari va metodik tavsiyalar bilan tanishishingiz va ularni yuklab olishingiz mumkin.</p>
-        <a href="#" class="btn">Materiallarni yuklab olish</a>
-    </section>
-</div>
+    navigation.style.display = "none";
 
-<footer>
-    <p>&copy; 2026 PhD Tadqiqot Portali. Barcha huquqlar himoyalangan.</p>
-</footer>
+} else {
+
+    navigation.style.display = "flex";
+
+}
+});
